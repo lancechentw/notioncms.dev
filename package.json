@@ -1,0 +1,16 @@
+{
+  "name": "notioncms.dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Lance Chen (https://lancechen.tw)",
+  "license": "MIT"
+}
