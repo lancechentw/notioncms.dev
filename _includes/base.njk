@@ -1,13 +1,14 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="text-gray-900">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/tailwind.css" rel="stylesheet">
     <title>{{ title }}</title>
   </head>
   <body>
-    <main>
-      <section>
+    <main class="lg:px-24 lg:py-16 md:px-16 px-6 py-8 text-lg">
+      <section class="max-w-xl">
         {{ content | safe }}
       </section>
     </main>
