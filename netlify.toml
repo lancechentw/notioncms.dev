@@ -1,0 +1,6 @@
+[build]
+  publish = "_site"
+  command = "npx @11ty/eleventy && npx tailwindcss -i src/tailwind.css -o css/tailwind.css && npx @11ty/eleventy"
+
+[context.production]
+  environment = { NODE_ENV = "production" }
