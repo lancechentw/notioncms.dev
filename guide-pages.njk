@@ -1,0 +1,10 @@
+---
+layout: base.njk
+pagination:
+  data: guideDatabase.pages
+  size: 1
+  alias: guide
+permalink: "guides/{{ guide.properties.Name | slug }}/"
+---
+
+{{ guide.body | safe }}
